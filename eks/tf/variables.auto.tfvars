@@ -10,4 +10,4 @@ zones = {
   }
 }
 
-
+kubernetesVersion = "1.19.0"

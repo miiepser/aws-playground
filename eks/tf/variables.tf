@@ -27,3 +27,9 @@ variable "zones" {
   description = "Map of the configuration of all used subnets"
   default     = {}
 }
+
+variable "kubernetesVersion" {
+  type        = string
+  default     = ""
+  description = "Chosen kubernetes >Version"
+}
